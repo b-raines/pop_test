@@ -1,0 +1,715 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<constant const='true' declared_type='NSString*' name='kPOPCollectionViewContentOffset' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPCollectionViewContentSize' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLabelTextColor' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerBackgroundColor' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerBorderColor' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerBorderWidth' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerBounds' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerCornerRadius' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerOpacity' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerPosition' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerPositionX' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerPositionY' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerRotation' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerRotationX' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerRotationY' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerScaleX' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerScaleXY' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerScaleY' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerShadowColor' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerShadowOffset' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerShadowOpacity' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerShadowRadius' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerSize' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerSubscaleXY' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerSubtranslationX' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerSubtranslationXY' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerSubtranslationY' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerSubtranslationZ' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerTranslationX' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerTranslationXY' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerTranslationY' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerTranslationZ' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayerZPosition' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPLayoutConstraintConstant' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPNavigationBarBarTintColor' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPScrollViewContentOffset' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPScrollViewContentSize' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPScrollViewZoomScale' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPShapeLayerStrokeColor' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPShapeLayerStrokeEnd' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPShapeLayerStrokeStart' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPTabBarBarTintColor' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPTableViewContentOffset' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPTableViewContentSize' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPToolbarBarTintColor' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPViewAlpha' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPViewBackgroundColor' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPViewBounds' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPViewCenter' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPViewFrame' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPViewScaleX' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPViewScaleXY' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPViewScaleY' type='@'/>
+<constant const='true' declared_type='NSString*' name='kPOPViewSize' type='@'/>
+<enum name='kPOPAnimationClampBoth' value='3'/>
+<enum name='kPOPAnimationClampEnd' value='2'/>
+<enum name='kPOPAnimationClampNone' value='0'/>
+<enum name='kPOPAnimationClampStart' value='1'/>
+<enum name='kPOPAnimationEventBouncinessUpdate' value='5'/>
+<enum name='kPOPAnimationEventDidReachToValue' value='12'/>
+<enum name='kPOPAnimationEventDidStart' value='10'/>
+<enum name='kPOPAnimationEventDidStop' value='11'/>
+<enum name='kPOPAnimationEventFrictionUpdate' value='7'/>
+<enum name='kPOPAnimationEventFromValueUpdate' value='3'/>
+<enum name='kPOPAnimationEventMassUpdate' value='8'/>
+<enum name='kPOPAnimationEventPropertyRead' value='0'/>
+<enum name='kPOPAnimationEventPropertyWrite' value='1'/>
+<enum name='kPOPAnimationEventSpeedUpdate' value='6'/>
+<enum name='kPOPAnimationEventTensionUpdate' value='9'/>
+<enum name='kPOPAnimationEventToValueUpdate' value='2'/>
+<enum name='kPOPAnimationEventVelocityUpdate' value='4'/>
+<function name='POPAnimationDragCoefficient'>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</function>
+<function name='POPLayerGetRotation'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</function>
+<function name='POPLayerGetRotationX'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</function>
+<function name='POPLayerGetRotationY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</function>
+<function name='POPLayerGetRotationZ'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</function>
+<function name='POPLayerGetScaleX'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</function>
+<function name='POPLayerGetScaleXY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGPoint' type='{CGPoint=ff}' type64='{CGPoint=dd}'/>
+</function>
+<function name='POPLayerGetScaleY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</function>
+<function name='POPLayerGetScaleZ'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</function>
+<function name='POPLayerGetSubScaleXY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGPoint' type='{CGPoint=ff}' type64='{CGPoint=dd}'/>
+</function>
+<function name='POPLayerGetSubTranslationX'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</function>
+<function name='POPLayerGetSubTranslationXY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGPoint' type='{CGPoint=ff}' type64='{CGPoint=dd}'/>
+</function>
+<function name='POPLayerGetSubTranslationY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</function>
+<function name='POPLayerGetSubTranslationZ'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</function>
+<function name='POPLayerGetTranslationX'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</function>
+<function name='POPLayerGetTranslationXY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGPoint' type='{CGPoint=ff}' type64='{CGPoint=dd}'/>
+</function>
+<function name='POPLayerGetTranslationY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</function>
+<function name='POPLayerGetTranslationZ'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</function>
+<function name='POPLayerSetRotation'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGFloat' name='f' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetRotationX'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGFloat' name='f' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetRotationY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGFloat' name='f' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetRotationZ'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGFloat' name='f' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetScaleX'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGFloat' name='f' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetScaleXY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGPoint' name='p' type='{CGPoint=ff}' type64='{CGPoint=dd}'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetScaleY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGFloat' name='f' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetScaleZ'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGFloat' name='f' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetSubScaleXY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGPoint' name='p' type='{CGPoint=ff}' type64='{CGPoint=dd}'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetSubTranslationX'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGFloat' name='f' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetSubTranslationXY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGPoint' name='p' type='{CGPoint=ff}' type64='{CGPoint=dd}'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetSubTranslationY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGFloat' name='f' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetSubTranslationZ'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGFloat' name='f' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetTranslationX'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGFloat' name='f' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetTranslationXY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGPoint' name='p' type='{CGPoint=ff}' type64='{CGPoint=dd}'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetTranslationY'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGFloat' name='f' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</function>
+<function name='POPLayerSetTranslationZ'>
+<arg declared_type='CALayer*' name='l' type='@'/>
+<arg declared_type='CGFloat' name='f' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</function>
+<class name='CAAnimation'>
+<method selector='pop_applyDragCoefficient'>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='NSObject'>
+<method selector='animatorDidAnimate:'>
+<arg declared_type='POPAnimator*' index='0' name='animator' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='animatorWillAnimate:'>
+<arg declared_type='POPAnimator*' index='0' name='animator' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='pop_addAnimation:forKey:'>
+<arg declared_type='POPAnimation*' index='0' name='anim' type='@'/>
+<arg declared_type='NSString*' index='1' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='pop_animationDidApply:'>
+<arg declared_type='POPAnimation*' index='0' name='anim' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='pop_animationDidReachToValue:'>
+<arg declared_type='POPAnimation*' index='0' name='anim' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='pop_animationDidStart:'>
+<arg declared_type='POPAnimation*' index='0' name='anim' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='pop_animationDidStop:finished:'>
+<arg declared_type='POPAnimation*' index='0' name='anim' type='@'/>
+<arg declared_type='BOOL' index='1' name='finished' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='pop_animationForKey:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='pop_animationKeys'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='pop_removeAllAnimations'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='pop_removeAnimationForKey:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='POPAnimatableProperty'>
+<method selector='name'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='propertyWithName:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='propertyWithName:initializer:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<arg declared_type='void (^)(POPMutableAnimatableProperty *)' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='POPMutableAnimatableProperty*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='readBlock'>
+<retval declared_type='void (^)(id, CGFloat *)' function_pointer='true' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg declared_type='CGFloat*' type='^f' type64='^d'/>
+<retval declared_type='void' type='v'/>
+</retval>
+</method>
+<method selector='threshold'>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</method>
+<method selector='writeBlock'>
+<retval declared_type='void (^)(id, CGFloat *)' function_pointer='true' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg const='true' declared_type='CGFloat*' type='^f' type64='^d'/>
+<retval declared_type='void' type='v'/>
+</retval>
+</method>
+</class>
+<class name='POPAnimation'>
+<method selector='beginTime'>
+<retval declared_type='CFTimeInterval' type='d'/>
+</method>
+<method selector='completionBlock'>
+<retval declared_type='void (^)(POPAnimation *, BOOL)' function_pointer='true' type='@?'>
+<arg declared_type='POPAnimation*' type='@'/>
+<arg declared_type='BOOL' type='B'/>
+<retval declared_type='void' type='v'/>
+</retval>
+</method>
+<method selector='delegate'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='isPaused'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='name'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='removedOnCompletion'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='setBeginTime:'>
+<arg declared_type='CFTimeInterval' index='0' name='beginTime' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setCompletionBlock:'>
+<arg declared_type='void (^)(POPAnimation *, BOOL)' function_pointer='true' index='0' name='completionBlock' type='@?'>
+<arg declared_type='POPAnimation*' type='@'/>
+<arg declared_type='BOOL' type='B'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setDelegate:'>
+<arg declared_type='id' index='0' name='delegate' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setName:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setPaused:'>
+<arg declared_type='BOOL' index='0' name='paused' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setRemovedOnCompletion:'>
+<arg declared_type='BOOL' index='0' name='removedOnCompletion' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='tracer'>
+<retval declared_type='POPAnimationTracer*' type='@'/>
+</method>
+</class>
+<class name='POPAnimationEvent'>
+<method selector='animationDescription'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='time'>
+<retval declared_type='CFTimeInterval' type='d'/>
+</method>
+<method selector='type'>
+<retval declared_type='POPAnimationEventType' type='I' type64='Q'/>
+</method>
+</class>
+<class name='POPAnimationTracer'>
+<method selector='allEvents'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='eventsWithType:'>
+<arg declared_type='POPAnimationEventType' index='0' name='type' type='I' type64='Q'/>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='reset'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setShouldLogAndResetOnCompletion:'>
+<arg declared_type='BOOL' index='0' name='shouldLogAndResetOnCompletion' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='shouldLogAndResetOnCompletion'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='start'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='stop'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='writeEvents'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+</class>
+<class name='POPAnimationValueEvent'>
+<method selector='value'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='velocity'>
+<retval declared_type='id' type='@'/>
+</method>
+</class>
+<class name='POPAnimator'>
+<method selector='delegate'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='setDelegate:'>
+<arg declared_type='id' index='0' name='delegate' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sharedAnimator'>
+<retval declared_type='id' type='@'/>
+</method>
+</class>
+<class name='POPBasicAnimation'>
+<method class_method='true' selector='animation'>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='animationWithPropertyNamed:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='defaultAnimation'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='duration'>
+<retval declared_type='CFTimeInterval' type='d'/>
+</method>
+<method class_method='true' selector='easeInAnimation'>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='easeInEaseOutAnimation'>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='easeOutAnimation'>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='linearAnimation'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='setDuration:'>
+<arg declared_type='CFTimeInterval' index='0' name='duration' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setTimingFunction:'>
+<arg declared_type='CAMediaTimingFunction*' index='0' name='timingFunction' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='timingFunction'>
+<retval declared_type='CAMediaTimingFunction*' type='@'/>
+</method>
+</class>
+<class name='POPCustomAnimation'>
+<method class_method='true' selector='animationWithBlock:'>
+<arg declared_type='POPCustomAnimationBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg declared_type='POPCustomAnimation*' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</arg>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='currentTime'>
+<retval declared_type='CFTimeInterval' type='d'/>
+</method>
+<method selector='elapsedTime'>
+<retval declared_type='CFTimeInterval' type='d'/>
+</method>
+</class>
+<class name='POPDecayAnimation'>
+<method class_method='true' selector='animation'>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='animationWithPropertyNamed:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='deceleration'>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</method>
+<method selector='duration'>
+<retval declared_type='CFTimeInterval' type='d'/>
+</method>
+<method selector='setDeceleration:'>
+<arg declared_type='CGFloat' index='0' name='deceleration' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setVelocity:'>
+<arg declared_type='id' index='0' name='velocity' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='velocity'>
+<retval declared_type='id' type='@'/>
+</method>
+</class>
+<class name='POPMutableAnimatableProperty'>
+<method selector='name'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='readBlock'>
+<retval declared_type='void (^)(id, CGFloat *)' function_pointer='true' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg declared_type='CGFloat*' type='^f' type64='^d'/>
+<retval declared_type='void' type='v'/>
+</retval>
+</method>
+<method selector='setName:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setReadBlock:'>
+<arg declared_type='void (^)(id, CGFloat *)' function_pointer='true' index='0' name='readBlock' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg declared_type='CGFloat*' type='^f' type64='^d'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setThreshold:'>
+<arg declared_type='CGFloat' index='0' name='threshold' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setWriteBlock:'>
+<arg declared_type='void (^)(id, CGFloat *)' function_pointer='true' index='0' name='writeBlock' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg const='true' declared_type='CGFloat*' type='^f' type64='^d'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='threshold'>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</method>
+<method selector='writeBlock'>
+<retval declared_type='void (^)(id, CGFloat *)' function_pointer='true' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg const='true' declared_type='CGFloat*' type='^f' type64='^d'/>
+<retval declared_type='void' type='v'/>
+</retval>
+</method>
+</class>
+<class name='POPPropertyAnimation'>
+<method selector='clampMode'>
+<retval declared_type='NSUInteger' type='I' type64='Q'/>
+</method>
+<method selector='fromValue'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='isAdditive'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='property'>
+<retval declared_type='POPAnimatableProperty*' type='@'/>
+</method>
+<method selector='roundingFactor'>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</method>
+<method selector='setAdditive:'>
+<arg declared_type='BOOL' index='0' name='additive' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setClampMode:'>
+<arg declared_type='NSUInteger' index='0' name='clampMode' type='I' type64='Q'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setFromValue:'>
+<arg declared_type='id' index='0' name='fromValue' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setProperty:'>
+<arg declared_type='POPAnimatableProperty*' index='0' name='property' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setRoundingFactor:'>
+<arg declared_type='CGFloat' index='0' name='roundingFactor' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setToValue:'>
+<arg declared_type='id' index='0' name='toValue' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='toValue'>
+<retval declared_type='id' type='@'/>
+</method>
+</class>
+<class name='POPSpringAnimation'>
+<method class_method='true' selector='animation'>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='animationWithPropertyNamed:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='convertBounciness:speed:toTension:friction:mass:'>
+<arg declared_type='CGFloat' index='0' name='bounciness' type='f' type64='d'/>
+<arg declared_type='CGFloat' index='1' name='speed' type='f' type64='d'/>
+<arg declared_type='CGFloat*' index='2' name='outTension' type='^f' type64='^d'/>
+<arg declared_type='CGFloat*' index='3' name='outFriction' type='^f' type64='^d'/>
+<arg declared_type='CGFloat*' index='4' name='outMass' type='^f' type64='^d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='convertTension:friction:toBounciness:speed:'>
+<arg declared_type='CGFloat' index='0' name='tension' type='f' type64='d'/>
+<arg declared_type='CGFloat' index='1' name='friction' type='f' type64='d'/>
+<arg declared_type='CGFloat*' index='2' name='outBounciness' type='^f' type64='^d'/>
+<arg declared_type='CGFloat*' index='3' name='outSpeed' type='^f' type64='^d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='dynamicsFriction'>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</method>
+<method selector='dynamicsMass'>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</method>
+<method selector='dynamicsTension'>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</method>
+<method selector='setDynamicsFriction:'>
+<arg declared_type='CGFloat' index='0' name='dynamicsFriction' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setDynamicsMass:'>
+<arg declared_type='CGFloat' index='0' name='dynamicsMass' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setDynamicsTension:'>
+<arg declared_type='CGFloat' index='0' name='dynamicsTension' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSpringBounciness:'>
+<arg declared_type='CGFloat' index='0' name='springBounciness' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSpringSpeed:'>
+<arg declared_type='CGFloat' index='0' name='springSpeed' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setVelocity:'>
+<arg declared_type='id' index='0' name='velocity' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='springBounciness'>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</method>
+<method selector='springSpeed'>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</method>
+<method selector='velocity'>
+<retval declared_type='id' type='@'/>
+</method>
+</class>
+<informal_protocol name='POP'>
+<method selector='pop_addAnimation:forKey:' type='v16@0:4@8@12' type64='v32@0:8@16@24'>
+<arg declared_type='POPAnimation*' index='0' name='anim' type='@'/>
+<arg declared_type='NSString*' index='1' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='pop_animationForKey:' type='@12@0:4@8' type64='@24@0:8@16'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='pop_animationKeys' type='@8@0:4' type64='@16@0:8'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='pop_removeAllAnimations' type='v8@0:4' type64='v16@0:8'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='pop_removeAnimationForKey:' type='v12@0:4@8' type64='v24@0:8@16'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</informal_protocol>
+<informal_protocol name='POPAnimationDelegate'>
+<method selector='pop_animationDidApply:' type='v12@0:4@8' type64='v24@0:8@16'>
+<arg declared_type='POPAnimation*' index='0' name='anim' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='pop_animationDidReachToValue:' type='v12@0:4@8' type64='v24@0:8@16'>
+<arg declared_type='POPAnimation*' index='0' name='anim' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='pop_animationDidStart:' type='v12@0:4@8' type64='v24@0:8@16'>
+<arg declared_type='POPAnimation*' index='0' name='anim' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='pop_animationDidStop:finished:' type='v16@0:4@8B12' type64='v28@0:8@16B24'>
+<arg declared_type='POPAnimation*' index='0' name='anim' type='@'/>
+<arg declared_type='BOOL' index='1' name='finished' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+</informal_protocol>
+<informal_protocol name='POPAnimatorDelegate'>
+<method selector='animatorDidAnimate:' type='v12@0:4@8' type64='v24@0:8@16'>
+<arg declared_type='POPAnimator*' index='0' name='animator' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='animatorWillAnimate:' type='v12@0:4@8' type64='v24@0:8@16'>
+<arg declared_type='POPAnimator*' index='0' name='animator' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</informal_protocol>
+</signatures>
